@@ -18,6 +18,6 @@
   "homepage": "https://github.com/jakub-playground/private-dependabot-test#readme",
   "dependencies": {
     "@pipedrive/fetch": "^0.1.0",
-    "fetch": "^0.1.0"
+    "fetch": "^1.1.0"
   }
 }
