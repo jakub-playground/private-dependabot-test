@@ -1,0 +1,22 @@
+{
+  "name": "private-dependabot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakub-playground/private-dependabot-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakub-playground/private-dependabot-test/issues"
+  },
+  "homepage": "https://github.com/jakub-playground/private-dependabot-test#readme",
+  "dependencies": {
+    "@pipedrive/fetch": "^0.1.0"
+  }
+}
