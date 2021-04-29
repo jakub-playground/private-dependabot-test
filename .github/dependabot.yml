@@ -1,0 +1,15 @@
+version: 2
+registries:
+  npm-registry-npm-registry-proxy-pipedrive-tools:
+    type: npm-registry
+    url: https://npm-registry-proxy.pipedrive.tools
+    token: "${{secrets.NPM_REGISTRY_NPM_REGISTRY_PROXY_PIPEDRIVE_TOOLS_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  registries:
+  - npm-registry-npm-registry-proxy-pipedrive-tools
